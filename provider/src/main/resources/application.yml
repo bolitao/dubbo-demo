@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: dubbo-provider
+dubbo:
+  application:
+    name: dubbo-provider
+  scan:
+    base-packages: xyz.bolitao.provider.service
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: N/A
