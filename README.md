@@ -2,4 +2,5 @@
 
 ## TODO
 
-- [ ] 集成 Nacos
+- [x] Nacos as registry service
+- [ ] Nacos as configuration service

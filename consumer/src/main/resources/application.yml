@@ -1,5 +1,12 @@
+nacos:
+  server-address: 127.0.0.1
+  port: 8848
+  username: nacos
+  password: nacos
 dubbo:
   application:
     name: dubbo-consumer
+  registry:
+    address: nacos://${nacos.server-address}:${nacos.port}/?username=${nacos.username}&password=${nacos.password}
 server:
   port: 23333

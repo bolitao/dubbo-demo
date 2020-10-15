@@ -10,7 +10,8 @@ import xyz.bolitao.api.api.DemoService;
  */
 @RestController
 public class ConsumerController {
-    @DubboReference(version = "1.0.0", url = "127.0.0.1:20881")
+    //    @DubboReference(version = "1.0.0", url = "127.0.0.1:20881")
+    @DubboReference(version = "1.0.0")
     private DemoService demoService;
 
     @GetMapping(value = "/consumer")
