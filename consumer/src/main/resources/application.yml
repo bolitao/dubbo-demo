@@ -1,3 +1,5 @@
 dubbo:
   application:
     name: dubbo-consumer
+server:
+  port: 23333
